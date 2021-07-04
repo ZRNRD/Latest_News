@@ -1,0 +1,23 @@
+.header{
+    background: $mainColor;
+    height: 120px;
+    width: 100%;
+    max-width: 850px;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-left: 30px;
+    img{
+        width: 100%;
+        max-width: 330px;
+        height: auto;
+    }
+}
+
+@media (max-width: 560px){
+    .header{
+
+        img{
+            max-width: 230px;
+        }
+    }
+}

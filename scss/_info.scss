@@ -1,0 +1,21 @@
+.info{
+    text-align: center;
+    & .title{
+        @include title(55px);
+        color: $mainColor;
+    }
+    & .subtitle{
+        font-weight: 700;
+    }
+    img{
+        width: 100%;
+        height: auto;
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 768px){
+    .subtitle{
+        font-size: 25px;
+    }
+}

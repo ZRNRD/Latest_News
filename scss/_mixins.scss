@@ -1,0 +1,6 @@
+@mixin title ($size){
+    font-family: $titleFont;
+    text-transform: uppercase;
+    font-size: $size;
+    margin-bottom: 10px;
+}

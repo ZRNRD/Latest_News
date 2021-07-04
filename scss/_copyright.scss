@@ -1,0 +1,29 @@
+.copyright{
+    display: flex;
+    justify-content: space-around;
+    
+    a{
+        text-decoration: none;
+        color: #000;
+        margin: 0 5px;
+        &:hover{
+            color: lighten(#000, 20);
+            text-decoration: underline;
+        }
+    }
+}
+
+@media (max-width: 835px){
+    .copyright{
+        a{
+            font-size: 15px;
+        }
+    }
+}
+
+@media (max-width: 560px){
+    .copyright{
+        text-align: center;
+        flex-direction: column;
+    }
+}
